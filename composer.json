@@ -1,0 +1,20 @@
+{
+    "name": "thecomicsdealer/squad-php",
+    "description": "A simple, easy to use and lightweight php framework for microservices building. Ideal for getting started with microservices.",
+    "keywords": ["microservice", "queue", "event", "messaging", "service-discovery", "broker"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florent Ogoutchoro",
+            "email": "ogoutchorof@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {"TheComicsDealer\\": "src/TheComicsDealer"}
+    }
+}
